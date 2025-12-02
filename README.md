@@ -271,23 +271,14 @@ Tauri configuration including window settings and build commands.
 
 ### Quick Start
 
-#### Option 1: Use the Convenience Script (Recommended)
-
 Navigate to the project directory and run:
 ```bash
 cd /Users/[name]/Downloads/dndbeyond
+npm install              # First time only
 ./start-app.sh
 ```
 
-#### Option 2: Manual Commands
-
-```bash
-cd /Users/[name]/Downloads/dndbeyond
-npm install              # First time only
-npm run tauri dev        # Start development server
-```
-
-**Note**: First run takes 5-10 minutes while Rust compiles dependencies. Subsequent runs are much faster.
+**Note**: First run may take a few minutes while Rust compiles dependencies. Subsequent runs are much faster.
 
 ### Building for Production
 
