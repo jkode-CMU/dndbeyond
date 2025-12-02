@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Acid Splash",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": ["Sorcerer", "Wizard"],
+    "description": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "casting_time": "1 action"
+  },
+  {
+    "name": "Charm Person",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": ["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"],
+    "description": "You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it.",
+    "range": "30 feet",
+    "components": "V, S",
+    "duration": "1 hour",
+    "casting_time": "1 action"
+  },
+  {
+    "name": "Fireball",
+    "level": 3,
+    "school": "Evocation",
+    "classes": ["Sorcerer", "Wizard"],
+    "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.",
+    "range": "150 feet",
+    "components": "V, S, M",
+    "duration": "Instantaneous",
+    "casting_time": "1 action"
+  }
+]

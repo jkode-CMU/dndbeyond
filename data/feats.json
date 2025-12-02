@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Great Weapon Master",
+    "prerequisites": "Proficiency with martial weapons",
+    "description": "You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:\n\n- On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.\n- Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage."
+  },
+  {
+    "name": "Magic Initiate",
+    "prerequisites": "None",
+    "description": "You learn two cantrips of your choice from one spell list of your choice: Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard. Your spellcasting ability for these spells depends on the spell list you chose: Charisma for Bard, Sorcerer, or Warlock; Wisdom for Cleric or Druid; Intelligence for Wizard."
+  },
+  {
+    "name": "Sharpshooter",
+    "prerequisites": "None",
+    "description": "You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:\n\n- Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.\n- Your ranged weapon attacks ignore half cover and three-quarters cover.\n- Before you make a ranged attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage."
+  },
+  {
+    "name": "Alert",
+    "prerequisites": "None",
+    "description": "Always on the lookout for danger, you gain the following benefits:\n\n- You gain a +5 bonus to initiative.\n- You can't be surprised while you are conscious.\n- Other creatures don't gain advantage on attack rolls against you as a result of being hidden from you."
+  },
+  {
+    "name": "Lucky",
+    "prerequisites": "None",
+    "description": "You have inexplicable luck that seems to kick in at just the right moment. You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined."
+  }
+]

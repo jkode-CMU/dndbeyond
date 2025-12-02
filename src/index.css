@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #4f46e5;
+  --app-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --bg-main: #f8fafc;
+  --bg-secondary: #ffffff;
+  --accent-primary: #6366f1;
+  --accent-secondary: #06b6d4;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #9ca3af;
+}
+
+/* Dark-mode defaults: overridden when `.dark` class is present on <html> */
+.dark {
+  --bg-main: #0f172a;
+  --bg-secondary: #0b1220;
+  --accent-primary: #6366f1;
+  --accent-secondary: #06b6d4;
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #9ca3af;
+}
+
+[data-theme-color="indigo"] {
+  --color-primary: #4f46e5;
+}
+
+[data-theme-color="blue"] {
+  --color-primary: #2563eb;
+}
+
+[data-theme-color="purple"] {
+  --color-primary: #9333ea;
+}
+
+[data-theme-color="green"] {
+  --color-primary: #16a34a;
+}
+
+[data-theme-color="red"] {
+  --color-primary: #dc2626;
+}
+
+[data-theme-color="orange"] {
+  --color-primary: #ea580c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--app-font, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial);
+}
+
+/* Provide fallbacks for dark mode classes that rely on Tailwind */
+.dark body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-200 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-600 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-gray-500;
+}
+
+/* Animations */
+@keyframes dice-roll {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(90deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.dice-animation {
+  animation: dice-roll 0.6s ease-in-out;
+}
+
+/* Quill editor dark mode styles */
+.dark .ql-toolbar.ql-snow {
+  border-color: #a0aec0; /* gray-400 */
+}
+
+.dark .ql-container.ql-snow {
+  border-color: #a0aec0; /* gray-400 */
+}
+
+.dark .ql-snow .ql-stroke {
+  stroke: #a0aec0; /* gray-400 */
+}
+
+.dark .ql-snow .ql-fill {
+  fill: #a0aec0; /* gray-400 */
+}
+
+.dark .ql-snow .ql-picker-label {
+  color: #a0aec0; /* gray-400 */
+}
+
+.dark .ql-snow.ql-toolbar button:hover,
+.dark .ql-snow .ql-toolbar button:hover,
+.dark .ql-snow.ql-toolbar .ql-picker-label:hover,
+.dark .ql-snow .ql-toolbar .ql-picker-label:hover {
+  background-color: #2d3748; /* gray-800 */
+}
+
+.dark .ql-snow.ql-toolbar button.ql-active,
+.dark .ql-snow .ql-toolbar button.ql-active,
+.dark .ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.dark .ql-snow .ql-toolbar .ql-picker-label.ql-active {
+  background-color: #1a202c; /* gray-900 */
+}
+
+.dark .ql-snow .ql-active .ql-stroke {
+    stroke: #818cf8; /* indigo-400 */
+}
+
+.dark .ql-snow .ql-active .ql-picker-label {
+    color: #818cf8; /* indigo-400 */
+}
+
+.dark .ql-snow .ql-editor {
+    color: #e2e8f0; /* gray-200 */
+}

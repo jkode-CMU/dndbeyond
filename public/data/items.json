@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Longsword",
+    "type": "Weapon",
+    "rarity": "Common",
+    "description": "A military one-handed melee weapon that has been polished to a brilliant gleam and appears to be barely used. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+    "properties": "Versatile (1d10), Martial Melee"
+  },
+  {
+    "name": "Plate Armor",
+    "type": "Armor",
+    "rarity": "Common",
+    "description": "Plate armor consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.",
+    "properties": "AC 18, Heavy Armor"
+  },
+  {
+    "name": "Bag of Holding",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "description": "This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet.",
+    "properties": "Weightless, Holds 500 lbs"
+  },
+  {
+    "name": "Healing Potion",
+    "type": "Potion",
+    "rarity": "Common",
+    "description": "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.",
+    "properties": "Consumable"
+  },
+  {
+    "name": "Staff of Power",
+    "type": "Staff",
+    "rarity": "Very Rare",
+    "description": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.",
+    "properties": "Versatile (1d8), Requires Attunement"
+  }
+]

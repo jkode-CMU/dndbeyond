@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Orc",
+    "type": "Humanoid",
+    "challenge_rating": 0.5,
+    "armor_class": 13,
+    "hit_points": 15,
+    "speed": "30 ft.",
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 16,
+    "intelligence": 7,
+    "wisdom": 11,
+    "charisma": 10,
+    "description": "Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks. They revel in combat and bloodshed.",
+    "actions": [
+      {
+        "name": "Greataxe",
+        "type": "Melee Weapon Attack",
+        "attack_bonus": "+5",
+        "damage": "1d12 + 3 slashing damage"
+      }
+    ]
+  },
+  {
+    "name": "Dragon",
+    "type": "Dragon",
+    "challenge_rating": 10,
+    "armor_class": 18,
+    "hit_points": 200,
+    "speed": "40 ft., fly 80 ft.",
+    "strength": 23,
+    "dexterity": 10,
+    "constitution": 21,
+    "intelligence": 14,
+    "wisdom": 13,
+    "charisma": 17,
+    "description": "Ancient and powerful, dragons are among the most iconic creatures of fantasy. They can breathe fire, fly, and have massive physical and magical power.",
+    "actions": [
+      {
+        "name": "Bite",
+        "type": "Melee Weapon Attack",
+        "attack_bonus": "+11",
+        "damage": "2d10 + 6 piercing damage plus 1d6 fire damage"
+      },
+      {
+        "name": "Breath Weapon",
+        "type": "Recharge 5-6",
+        "description": "The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 31 (9d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ]
+  }
+]
